@@ -5,33 +5,117 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Portfólio</title>
     <style>
+        /* Estilos gerais */
         body {
             font-family: Arial, sans-serif;
-            text-align: center;
             margin: 0;
             padding: 0;
-            background-color: #f0f0f0;
+            background-color: #f5f3f7; /* Fundo lilás claro */
+            color: #333;
+            display: flex;
         }
-        header {
-            background-color: #4CAF50;
+
+        /* Estilizando a barra lateral */
+        .sidebar {
+            width: 25%;
+            background-color: #6a0dad; /* Roxo forte */
             color: white;
             padding: 20px;
+            height: 100vh; /* Ocupa a tela inteira */
+            position: fixed;
+            left: 0;
+            top: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .sidebar h1 {
             font-size: 24px;
         }
-        section {
-            margin: 20px;
-            padding: 20px;
+
+        .sidebar p {
+            font-size: 16px;
+        }
+
+        /* Área principal à direita */
+        .main-content {
+            margin-left: 25%;
+            padding: 30px;
+            width: 75%;
+        }
+
+        .section {
             background: white;
+            padding: 20px;
             border-radius: 10px;
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        /* Estilizando os links */
+        a {
+            color: #6a0dad;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Citação estilizada */
+        .quote {
+            font-style: italic;
+            color: #6a0dad;
+            margin-top: 20px;
+            text-align: center;
         }
     </style>
 </head>
 <body>
-    <header>Meu Portfólio</header>
-    <section>
-        <h1>Olá! Eu sou Maria Eduarda Vieira </h1>
-        <p>Bem-vindo ao meu portfólio! Aqui você encontrará meus projetos e habilidades.</p>
-    </section>
+
+    <!-- Barra Lateral Esquerda -->
+    <aside class="sidebar">
+        <h1>👋 Olá! Eu sou [Seu Nome]</h1>
+        <p>Sou uma entusiasta de <strong>Análise de Dados e Economia</strong>, apaixonada por resolver problemas e extrair insights a partir dos dados.</p>
+        <p>🎓 <strong>Ciências Econômicas</strong> - UFPE</p>
+        <p>🚀 Estudando: <strong>Python, SQL e Power BI</strong></p>
+    </aside>
+
+    <!-- Área Principal -->
+    <main class="main-content">
+        
+        <section class="section">
+            <h2>🛠️ Habilidades</h2>
+            <ul>
+                <li><strong>Linguagens:</strong> Python, R, SQL</li>
+                <li><strong>Ferramentas:</strong> Power BI, Excel, Google Sheets</li>
+                <li><strong>Bibliotecas:</strong> Pandas, NumPy, Matplotlib, Seaborn</li>
+                <li><strong>Metodologias:</strong> Análise Exploratória de Dados (EDA), Modelagem Estatística</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>📌 Projetos em Destaque</h2>
+            <ul>
+                <li>🔹 <a href="#">Nome do Projeto 1</a> - Breve descrição sobre o projeto.</li>
+                <li>🔹 <a href="#">Nome do Projeto 2</a> - Breve descrição sobre o projeto.</li>
+                <li>🔹 <a href="#">Nome do Projeto 3</a> - Breve descrição sobre o projeto.</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>📫 Como me encontrar</h2>
+            <p>
+                <a href="https://www.linkedin.com/in/seu-usuario" target="_blank">LinkedIn</a> |
+                <a href="mailto:seuemail@email.com">E-mail</a>
+            </p>
+        </section>
+
+        <p class="quote">✨ “Dados são o novo petróleo.” 🚀</p>
+        
+    </main>
+
 </body>
 </html>
