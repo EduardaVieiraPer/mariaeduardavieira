@@ -10,42 +10,21 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f7f5fc; /* Roxo bem claro */
+            background-color: #f6e6fa; /* Lilás claro */
             color: #333;
             display: flex;
+            justify-content: center; /* Centraliza o conteúdo na tela */
+            align-items: center; /* Centraliza o conteúdo na tela verticalmente */
+            height: 100vh; /* Ocupa toda a altura da tela */
         }
 
-        /* Estilizando a barra lateral */
-        .sidebar {
-            width: 22%;
-            background-color: #b89ee3; /* Roxo suave */
-            color: white;
-            padding: 40px 20px;
-            height: 100vh; /* Ocupa a tela inteira */
-            position: fixed;
-            left: 0;
-            top: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center; /* Centraliza todo o conteúdo */
-        }
-
-        .sidebar h1 {
-            font-size: 22px;
-            margin-bottom: 10px;
-        }
-
-        .sidebar p {
-            font-size: 14px;
-            margin: 5px 0;
-        }
-
-        /* Área principal à direita */
+        /* Estilizando a área principal */
         .main-content {
-            margin-left: 22%;
+            background-color: #e0bbf7; /* Lilás suave */
             padding: 40px;
-            width: 78%;
+            width: 80%; /* Ajusta a largura */
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
         }
 
         .section {
@@ -57,7 +36,7 @@
         }
 
         .section h2 {
-            color: #6a0dad; /* Roxo mais suave */
+            color: #d3a8e0; /* Lilás mais suave */
             font-size: 20px;
             margin-bottom: 10px;
         }
@@ -73,7 +52,7 @@
 
         /* Estilizando os links */
         a {
-            color: #6a0dad;
+            color: #d3a8e0; /* Lilás mais suave */
             text-decoration: none;
             font-weight: bold;
         }
@@ -85,21 +64,13 @@
         /* Citação estilizada */
         .quote {
             font-style: italic;
-            color: #6a0dad;
+            color: #d3a8e0;
             margin-top: 20px;
             text-align: center;
         }
     </style>
 </head>
 <body>
-
-    <!-- Barra Lateral Esquerda -->
-    <aside class="sidebar">
-        <h1>👋 Olá! Eu sou Maria Eduarda Vieira</h1>
-        <p>Sou uma entusiasta de <strong>Análise de Dados e Economia</strong>, apaixonada por resolver problemas e extrair insights a partir dos dados.</p>
-        <p>🎓 <strong>Ciências Econômicas</strong> - UFPE</p>
-        <p>🚀 Estudando: <strong>Python, SQL e Power BI</strong></p>
-    </aside>
 
     <!-- Área Principal -->
     <main class="main-content">
