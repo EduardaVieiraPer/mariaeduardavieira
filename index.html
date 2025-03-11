@@ -14,15 +14,15 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            min-height: 100vh;
+            height: 100vh;
         }
         .container {
             background-color: #fff;
             padding: 2rem;
             border-radius: 10px;
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-            max-width: 800px;
-            width: 100%;
+            width: 90%;
+            max-width: 1200px;
             text-align: center;
         }
         .header {
@@ -33,10 +33,10 @@
             text-align: center;
         }
         .profile-img {
-            width: 120px;
-            height: 120px;
+            width: 150px;
+            height: 150px;
             border-radius: 50%;
-            margin-top: -60px;
+            margin-top: -75px;
             border: 5px solid white;
             object-fit: cover;
         }
@@ -47,17 +47,20 @@
             margin: 1rem 0;
         }
         .social-links a img {
-            width: 32px;
-            height: 32px;
-            margin: 0 0.5rem;
+            width: 40px;
+            height: 40px;
+            margin: 0 1rem;
         }
-        .about, .skills, .projects, .languages {
+        .sections {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
             text-align: left;
-            margin-top: 1.5rem;
+            margin-top: 2rem;
         }
         .contact {
             text-align: center;
-            margin-top: 1.5rem;
+            margin-top: 2rem;
         }
         .contact p {
             margin: 0.3rem 0;
@@ -73,38 +76,38 @@
         </div>
         
         <div class="social-links">
-            <a href="#"><img src="linkedin-icon.png" alt="LinkedIn"></a>
-            <a href="#"><img src="github-icon.png" alt="GitHub"></a>
-            <a href="#"><img src="medium-icon.png" alt="Medium"></a>
+            <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAA..." alt="LinkedIn"></a>
+            <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAA..." alt="GitHub"></a>
+            <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAA..." alt="Medium"></a>
         </div>
         
-        <section class="about">
-            <h2>Sobre mim</h2>
-            <p>Estudante de Ciências Econômicas na Universidade Federal de Pernambuco, apaixonada por Análise de Dados, Economia Aplicada e Machine Learning.</p>
-        </section>
-        
-        <section class="skills">
-            <h2>Habilidades</h2>
-            <p><strong>Linguagens:</strong> Python, R, SQL</p>
-            <p><strong>Ferramentas:</strong> Power BI, Excel, Google Sheets, Metabase</p>
-            <p><strong>Bibliotecas:</strong> Pandas, NumPy, Matplotlib, Seaborn</p>
-        </section>
-        
-        <section class="projects">
-            <h2>Projetos em Destaque</h2>
-            <p><strong>Projeto 1:</strong> Análise de Dados Econômicos</p>
-            <p><strong>Projeto 2:</strong> Dashboard Interativo em Power BI</p>
-        </section>
-        
-        <section class="languages">
-            <h2>Idiomas</h2>
-            <p><strong>Português:</strong> Nativa</p>
-            <p><strong>Inglês:</strong> Intermediário</p>
-        </section>
+        <div class="sections">
+            <section class="about">
+                <h2>Sobre mim</h2>
+                <p>Estudante de Ciências Econômicas na Universidade Federal de Pernambuco (2022 - até o momento), apaixonada por Análise de Dados, Economia Aplicada e Machine Learning.</p>
+            </section>
+            <section class="skills">
+                <h2>Habilidades</h2>
+                <p><strong>Linguagens:</strong> Python, R, SQL</p>
+                <p><strong>Ferramentas:</strong> Power BI, Excel, Google Sheets, Metabase</p>
+                <p><strong>Bibliotecas:</strong> Pandas, NumPy, Matplotlib, Seaborn</p>
+            </section>
+            <section class="projects">
+                <h2>Projetos em Destaque</h2>
+                <p><strong>Projeto 1:</strong> Análise de Dados Econômicos</p>
+                <p><strong>Projeto 2:</strong> Dashboard Interativo em Power BI</p>
+                <p><strong>Projeto 3:</strong> Em desenvolvimento</p>
+            </section>
+            <section class="languages">
+                <h2>Idiomas</h2>
+                <p><strong>Português:</strong> Nativa</p>
+                <p><strong>Inglês:</strong> Intermediário</p>
+            </section>
+        </div>
         
         <section class="contact">
             <h2>Contato</h2>
-            <p>Email: seuemail@email.com</p>
+            <p>Email: mariaeduardavieiraper@gmail.com</p>
             <p>Localização: Recife, Brasil</p>
         </section>
     </div>
