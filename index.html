@@ -23,88 +23,88 @@
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
             max-width: 800px;
             width: 100%;
-            position: relative;
-        }
-        h1, h2 {
-            color: #5a5a5a;
+            text-align: center;
         }
         .header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
+            background-color: #6c7983;
+            color: white;
+            padding: 2rem 1rem;
+            border-radius: 10px 10px 0 0;
+            text-align: center;
+        }
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin-top: -60px;
+            border: 5px solid white;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .social-links {
+            margin: 1rem 0;
         }
         .social-links a img {
             width: 24px;
             height: 24px;
-            margin-right: 1rem;
+            margin: 0 0.5rem;
         }
-        .contact-icons img {
-            width: 24px;
-            height: 24px;
-            margin-bottom: 0.5rem;
-        }
-        .contact, .languages, .about, .skills, .projects {
+        .about, .skills, .projects, .languages {
+            text-align: left;
             margin-top: 1.5rem;
         }
-        .contact-info {
-            text-align: right;
+        .contact {
+            text-align: center;
+            margin-top: 1.5rem;
         }
-        .social-and-contact {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 1rem;
+        .contact p {
+            margin: 0.3rem 0;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <header class="header">
-            <div>
-                <h1>Maria Eduarda Vieira</h1>
-                <p>Analista de Dados</p>
-                <div class="social-links">
-                    <a href="https://www.linkedin.com/in/seu-perfil" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn"></a>
-                    <a href="https://github.com/seu-usuario" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub"></a>
-                    <a href="https://medium.com/@seu-usuario" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/medium/medium-original.svg" alt="Medium"></a>
-                </div>
-            </div>
-            <div class="contact-info">
-                <div class="contact-icons">
-                    <img src="https://cdn-icons-png.flaticon.com/512/561/561127.png" alt="Endereço">
-                    <p>Sua cidade, Seu estado</p>
-                    <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email">
-                    <p>seuemail@email.com</p>
-                    <img src="https://cdn-icons-png.flaticon.com/512/455/455705.png" alt="Telefone">
-                    <p>(00) 00000-0000</p>
-                </div>
-            </div>
-        </header>
+        <div class="header">
+            <img src="profile.jpg" alt="Maria Eduarda Vieira" class="profile-img">
+            <h1>Maria Eduarda Vieira</h1>
+            <p>Analista de Dados</p>
+        </div>
+        
+        <div class="social-links">
+            <a href="#"><img src="linkedin.svg" alt="LinkedIn"></a>
+            <a href="#"><img src="github.svg" alt="GitHub"></a>
+            <a href="#"><img src="medium.svg" alt="Medium"></a>
+        </div>
         
         <section class="about">
             <h2>Sobre mim</h2>
-            <p>Estudante de Ciências Econômicas na Universidade Federal de Pernambuco, apaixonada por Análise de Dados, Economia Aplicada e Machine Learning. Atualmente, estou aprofundando meus conhecimentos em Python, SQL e Power BI, buscando oportunidades para aplicar minhas habilidades na prática.</p>
+            <p>Estudante de Ciências Econômicas na Universidade Federal de Pernambuco, apaixonada por Análise de Dados, Economia Aplicada e Machine Learning.</p>
         </section>
-
+        
         <section class="skills">
             <h2>Habilidades</h2>
             <p><strong>Linguagens:</strong> Python, R, SQL</p>
             <p><strong>Ferramentas:</strong> Power BI, Excel, Google Sheets, Metabase</p>
             <p><strong>Bibliotecas:</strong> Pandas, NumPy, Matplotlib, Seaborn</p>
-            <p><strong>Metodologias:</strong> Análise Exploratória de Dados (EDA), Modelagem Estatística</p>
         </section>
-
+        
         <section class="projects">
             <h2>Projetos em Destaque</h2>
-            <p><strong>Projeto 1:</strong> Breve descrição do projeto.</p>
-            <p><strong>Projeto 2:</strong> Breve descrição do projeto.</p>
-            <p><strong>Projeto 3:</strong> Breve descrição do projeto.</p>
+            <p><strong>Projeto 1:</strong> Análise de Dados Econômicos</p>
+            <p><strong>Projeto 2:</strong> Dashboard Interativo em Power BI</p>
         </section>
-
+        
         <section class="languages">
             <h2>Idiomas</h2>
             <p><strong>Português:</strong> Nativa</p>
             <p><strong>Inglês:</strong> Intermediário</p>
+        </section>
+        
+        <section class="contact">
+            <h2>Contato</h2>
+            <p>Email: seuemail@email.com</p>
+            <p>Localização: Recife, Brasil</p>
         </section>
     </div>
 </body>
