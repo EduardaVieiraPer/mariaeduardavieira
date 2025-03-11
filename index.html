@@ -1,144 +1,111 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Portfólio</title>
+    <title>Portfólio | Maria Eduarda Vieira</title>
     <style>
-        /* Estilos gerais */
         body {
             font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            color: #333;
             margin: 0;
             padding: 0;
-            background-color: #f6e6fa; /* Lilás claro */
-            color: #333;
             display: flex;
             justify-content: center;
             align-items: center;
             min-height: 100vh;
         }
-
         .container {
-            width: 80%;
-            background-color: #e0bbf7; /* Lilás suave */
-            padding: 40px;
+            background-color: #fff;
+            padding: 2rem;
             border-radius: 10px;
-            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            width: 100%;
+            position: relative;
         }
-
-        /* Cabeçalho (nome e descrição "soltos") */
+        h1, h2 {
+            color: #5a5a5a;
+        }
         .header {
-            text-align: center;
-            color: white;
-            margin-bottom: 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
         }
-
-        .header h1 {
-            font-size: 36px;
-            margin-bottom: 10px;
+        .social-links a img {
+            width: 24px;
+            height: 24px;
+            margin-right: 1rem;
         }
-
-        .header p {
-            font-size: 18px;
+        .contact-icons img {
+            width: 24px;
+            height: 24px;
+            margin-bottom: 0.5rem;
         }
-
-        /* Estilizando as seções */
-        .section {
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
-            margin-bottom: 20px;
+        .contact, .languages, .about, .skills, .projects {
+            margin-top: 1.5rem;
         }
-
-        .section h2 {
-            color: #d3a8e0;
-            font-size: 20px;
-            margin-bottom: 10px;
+        .contact-info {
+            text-align: right;
         }
-
-        .section p, .section ul {
-            text-align: justify;
-            font-size: 14px;
-        }
-
-        .section ul {
-            padding-left: 15px;
-        }
-
-        /* Estilizando os links */
-        a {
-            color: #d3a8e0;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        .quote {
-            font-style: italic;
-            color: #d3a8e0;
-            text-align: center;
-            margin-top: 20px;
+        .social-and-contact {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
         }
     </style>
 </head>
 <body>
-
     <div class="container">
-
-        <!-- Cabeçalho solto no fundo lilás -->
         <header class="header">
-            <h1>👋 Olá, eu sou Maria Eduarda Vieira!</h1>
-            <p>Sou uma entusiasta de <strong>Análise de Dados e Economia</strong>, apaixonada por resolver problemas e extrair insights a partir dos dados.</p>
+            <div>
+                <h1>Maria Eduarda Vieira</h1>
+                <p>Analista de Dados</p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/seu-perfil" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn"></a>
+                    <a href="https://github.com/seu-usuario" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub"></a>
+                    <a href="https://medium.com/@seu-usuario" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/medium/medium-original.svg" alt="Medium"></a>
+                </div>
+            </div>
+            <div class="contact-info">
+                <div class="contact-icons">
+                    <img src="https://cdn-icons-png.flaticon.com/512/561/561127.png" alt="Endereço">
+                    <p>Sua cidade, Seu estado</p>
+                    <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email">
+                    <p>seuemail@email.com</p>
+                    <img src="https://cdn-icons-png.flaticon.com/512/455/455705.png" alt="Telefone">
+                    <p>(00) 00000-0000</p>
+                </div>
+            </div>
         </header>
-
-        <!-- Sobre mim -->
-        <section class="section">
-            <h2>🔎 Sobre mim</h2>
-            <ul>
-                <li>🎓 Estudante de <strong>Ciências Econômicas</strong> na UFPE;</li>
-                <li>📊 Interessada em <strong>Data Analysis</strong>, <strong>Machine Learning</strong> e <strong>Economia Aplicada</strong>;</li>
-                <li>🚀 Atualmente estudando <strong>Python, SQL e Power BI</strong>;</li>
-                <li>💡 Buscando oportunidades para aplicar meus conhecimentos na prática.</li>
-            </ul>
+        
+        <section class="about">
+            <h2>Sobre mim</h2>
+            <p>Estudante de Ciências Econômicas na Universidade Federal de Pernambuco, apaixonada por Análise de Dados, Economia Aplicada e Machine Learning. Atualmente, estou aprofundando meus conhecimentos em Python, SQL e Power BI, buscando oportunidades para aplicar minhas habilidades na prática.</p>
         </section>
 
-        <!-- Habilidades -->
-        <section class="section">
-            <h2>🛠️ Habilidades</h2>
-            <ul>
-                <li><strong>Linguagens:</strong> Python, R, SQL</li>
-                <li><strong>Ferramentas:</strong> Power BI, Excel, Google Sheets</li>
-                <li><strong>Bibliotecas:</strong> Pandas, NumPy, Matplotlib, Seaborn</li>
-                <li><strong>Metodologias:</strong> Análise Exploratória de Dados (EDA), Modelagem Estatística</li>
-            </ul>
+        <section class="skills">
+            <h2>Habilidades</h2>
+            <p><strong>Linguagens:</strong> Python, R, SQL</p>
+            <p><strong>Ferramentas:</strong> Power BI, Excel, Google Sheets, Metabase</p>
+            <p><strong>Bibliotecas:</strong> Pandas, NumPy, Matplotlib, Seaborn</p>
+            <p><strong>Metodologias:</strong> Análise Exploratória de Dados (EDA), Modelagem Estatística</p>
         </section>
 
-        <!-- Projetos -->
-        <section class="section">
-            <h2>📌 Projetos em Destaque</h2>
-            <ul>
-                <li>🔹 <a href="#">Nome do Projeto 1</a> - Breve descrição sobre o projeto.</li>
-                <li>🔹 <a href="#">Nome do Projeto 2</a> - Breve descrição sobre o projeto.</li>
-                <li>🔹 <a href="#">Nome do Projeto 3</a> - Breve descrição sobre o projeto.</li>
-            </ul>
+        <section class="projects">
+            <h2>Projetos em Destaque</h2>
+            <p><strong>Projeto 1:</strong> Breve descrição do projeto.</p>
+            <p><strong>Projeto 2:</strong> Breve descrição do projeto.</p>
+            <p><strong>Projeto 3:</strong> Breve descrição do projeto.</p>
         </section>
 
-        <!-- Contato -->
-        <section class="section">
-            <h2>📫 Como me encontrar</h2>
-            <p>
-                <a href="https://www.linkedin.com/in/seu-usuario" target="_blank">LinkedIn</a> |
-                <a href="mailto:seuemail@email.com">E-mail</a>
-            </p>
+        <section class="languages">
+            <h2>Idiomas</h2>
+            <p><strong>Português:</strong> Nativa</p>
+            <p><strong>Inglês:</strong> Intermediário</p>
         </section>
-
-        <p class="quote">✨ “Dados são o novo petróleo.” 🚀</p>
-
     </div>
-
 </body>
 </html>
