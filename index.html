@@ -32,77 +32,74 @@
             border-radius: 10px 10px 0 0;
             text-align: center;
         }
-        .profile-img {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            margin-top: -75px;
-            border: 5px solid white;
-            object-fit: cover;
-        }
         h1, h2 {
             color: #333;
         }
         .social-links {
             margin: 1rem 0;
         }
-        .social-links a img {
-            width: 40px;
-            height: 40px;
-            margin: 0 1rem;
+        .social-links a {
+            text-decoration: none;
+            color: #6c7983;
+            font-size: 24px;
+            margin: 0 15px;
         }
         .sections {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 1.5rem;
-            text-align: left;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
             margin-top: 2rem;
+        }
+        .left-column, .right-column {
+            width: 48%;
+            text-align: left;
         }
         .contact {
             text-align: center;
             margin-top: 2rem;
         }
-        .contact p {
-            margin: 0.3rem 0;
-        }
     </style>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="container">
         <div class="header">
-            <img src="images/perfil.png" alt="Maria Eduarda Vieira" class="profile-img">
             <h1>Maria Eduarda Vieira</h1>
             <p>Analista de Dados</p>
         </div>
         
         <div class="social-links">
-            <a href="#"><img src="images/linkedin.png" alt="LinkedIn"></a>
-            <a href="#"><img src="images/github.png" alt="GitHub"></a>
-            <a href="#"><img src="images/medium.png" alt="Medium"></a>
+            <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="#" title="Medium"><i class="fab fa-medium"></i></a>
         </div>
         
         <div class="sections">
-            <section class="about">
-                <h2>Sobre mim</h2>
-                <p>Estudante de Ciências Econômicas na Universidade Federal de Pernambuco (2022 - até o momento), apaixonada por Análise de Dados, Economia Aplicada e Machine Learning.</p>
-            </section>
-            <section class="skills">
-                <h2>Habilidades</h2>
-                <p><strong>Linguagens:</strong> Python, R, SQL</p>
-                <p><strong>Ferramentas:</strong> Power BI, Excel, Google Sheets, Metabase</p>
-                <p><strong>Bibliotecas:</strong> Pandas, NumPy, Matplotlib, Seaborn</p>
-            </section>
-            <section class="projects">
-                <h2>Projetos em Destaque</h2>
-                <p><strong>Projeto 1:</strong> Análise de Dados Econômicos</p>
-                <p><strong>Projeto 2:</strong> Dashboard Interativo em Power BI</p>
-                <p><strong>Projeto 3:</strong> Em desenvolvimento</p>
-            </section>
-            <section class="languages">
-                <h2>Idiomas</h2>
-                <p><strong>Português:</strong> Nativa</p>
-                <p><strong>Inglês:</strong> Intermediário</p>
-            </section>
+            <div class="left-column">
+                <section class="about">
+                    <h2>Sobre mim</h2>
+                    <p>Estudante de Ciências Econômicas na Universidade Federal de Pernambuco (2022 - até o momento), apaixonada por Análise de Dados, Economia Aplicada e Machine Learning.</p>
+                </section>
+                <section class="skills">
+                    <h2>Habilidades</h2>
+                    <p><strong>Linguagens:</strong> Python, R, SQL</p>
+                    <p><strong>Ferramentas:</strong> Power BI, Excel, Google Sheets, Metabase</p>
+                    <p><strong>Bibliotecas:</strong> Pandas, NumPy, Matplotlib, Seaborn</p>
+                </section>
+            </div>
+            <div class="right-column">
+                <section class="projects">
+                    <h2>Projetos em Destaque</h2>
+                    <p><strong>Projeto 1:</strong> Análise de Dados Econômicos</p>
+                    <p><strong>Projeto 2:</strong> Dashboard Interativo em Power BI</p>
+                    <p><strong>Projeto 3:</strong> Em desenvolvimento</p>
+                </section>
+                <section class="languages">
+                    <h2>Idiomas</h2>
+                    <p><strong>Português:</strong> Nativa</p>
+                    <p><strong>Inglês:</strong> Intermediário</p>
+                </section>
+            </div>
         </div>
         
         <section class="contact">
@@ -113,3 +110,4 @@
     </div>
 </body>
 </html>
+
