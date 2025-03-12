@@ -4,111 +4,118 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio | Maria Eduarda Vieira</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <style>
         body {
             font-family: Arial, sans-serif;
             background-color: #f8f8f8;
             color: #333;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
+            padding: 20px;
         }
         .container {
+            max-width: 900px;
+            margin: 0 auto;
             background-color: #fff;
-            padding: 2rem;
+            padding: 30px;
             border-radius: 10px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-            margin: 0 auto; /* Adiciona centralização automática */
-            width: 60%;
-            max-width: 1200px;
-            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         }
-        .header {
-            background-color: #6c7983;
+        header {
+            background: linear-gradient(135deg, #6c757d, #f8f8f8);
             color: white;
-            padding: 2rem 1rem;
+            padding: 40px;
             border-radius: 10px 10px 0 0;
             text-align: center;
         }
         h1, h2 {
-            color: #333;
+            margin-bottom: 10px;
         }
-        .social-links {
-            margin: 1rem 0;
+        .section {
+            margin-bottom: 20px;
         }
-        .social-links a {
-            text-decoration: none;
-            color: #6c7983;
-            font-size: 24px;
-            margin: 0 15px;
-        }
-        .sections {
+        .skills, .projects, .contact, .languages, .experience {
             display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
-            margin-top: 2rem;
+            flex-direction: column;
+            gap: 10px;
         }
-        .left-column, .right-column {
-            width: 48%;
-            text-align: left;
+        .projects a {
+            color: #0077b6;
+            text-decoration: none;
         }
-        .contact {
+        .projects a:hover {
+            text-decoration: underline;
+        }
+        .button {
+            background-color: #0077b6;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
             text-align: center;
-            margin-top: 2rem;
+        }
+        .button:hover {
+            background-color: #005a8d;
+        }
+        .icons a {
+            margin-right: 10px;
+            text-decoration: none;
+            color: #0077b6;
+            font-size: 1.5em;
+        }
+        .icons a:hover {
+            color: #005a8d;
         }
     </style>
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="container">
-        <div class="header">
+        <header>
             <h1>Maria Eduarda Vieira</h1>
-            <p>Analista de Dados</p>
-        </div>
-        
-        <div class="social-links">
-            <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-            <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
-            <a href="#" title="Medium"><i class="fab fa-medium"></i></a>
-        </div>
-        
-        <div class="sections">
-            <div class="left-column">
-                <section class="about">
-                    <h2>Sobre mim</h2>
-                    <p>Estudante de Ciências Econômicas na Universidade Federal de Pernambuco (2022 - até o momento), apaixonada por Análise de Dados, Economia Aplicada e Machine Learning.</p>
-                </section>
-                <section class="skills">
-                    <h2>Habilidades</h2>
-                    <p><strong>Linguagens:</strong> Python, R, SQL</p>
-                    <p><strong>Ferramentas:</strong> Power BI, Excel, Google Sheets, Metabase</p>
-                    <p><strong>Bibliotecas:</strong> Pandas, NumPy, Matplotlib, Seaborn</p>
-                </section>
-            </div>
-            <div class="right-column">
-                <section class="projects">
-                    <h2>Projetos em Destaque</h2>
-                    <p><strong>Projeto 1:</strong> Análise de Dados Econômicos</p>
-                    <p><strong>Projeto 2:</strong> Dashboard Interativo em Power BI</p>
-                    <p><strong>Projeto 3:</strong> Em desenvolvimento</p>
-                </section>
-                <section class="languages">
-                    <h2>Idiomas</h2>
-                    <p><strong>Português:</strong> Nativa</p>
-                    <p><strong>Inglês:</strong> Intermediário</p>
-                </section>
-            </div>
-        </div>
-        
-        <section class="contact">
+            <h2>Analista de Dados</h2>
+        </header>
+
+        <section class="section about">
+            <h2>Sobre mim</h2>
+            <p>Sou uma estudante de Ciências Econômicas apaixonada por transformar dados em decisões inteligentes. Atualmente, estudo na Universidade Federal de Pernambuco (2022 - até o momento), com foco em Análise de Dados, Economia Aplicada e Machine Learning.</p>
+        </section>
+
+        <section class="section skills">
+            <h2>Habilidades</h2>
+            <p><strong>Linguagens:</strong> Python, R, SQL</p>
+            <p><strong>Ferramentas:</strong> Power BI, Excel, Google Sheets, Metabase</p>
+            <p><strong>Bibliotecas:</strong> Pandas, NumPy, Matplotlib, Seaborn</p>
+        </section>
+
+        <section class="section projects">
+            <h2>Projetos em Destaque</h2>
+            <p><strong>Projeto 1:</strong> <a href="#">Análise de Dados Econômicos</a></p>
+            <p><strong>Projeto 2:</strong> <a href="#">Dashboard Interativo em Power BI</a></p>
+            <p><strong>Projeto 3:</strong> Em desenvolvimento</p>
+        </section>
+
+        <section class="section experience">
+            <h2>Experiências</h2>
+            <p>- Estagiária de Análise de Dados - <em>Nome da empresa</em> (Data de início - Atual)</p>
+            <p>- Monitora de Química e Português - Ensino Médio (Ano)</p>
+        </section>
+
+        <section class="section languages">
+            <h2>Idiomas</h2>
+            <p><strong>Português:</strong> Nativa</p>
+            <p><strong>Inglês:</strong> Intermediário</p>
+        </section>
+
+        <section class="section contact">
             <h2>Contato</h2>
-            <p>Email: mariaeduardavieiraper@gmail.com</p>
-            <p>Localização: Recife, Brasil</p>
+            <p><strong>Email:</strong> <a href="mailto:mariaeduardavieiraper@gmail.com">mariaeduardavieiraper@gmail.com</a></p>
+            <div class="icons">
+                <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+            <p><strong>Localização:</strong> Recife, Brasil</p>
+            <button class="button">Download CV</button>
         </section>
     </div>
 </body>
 </html>
-
