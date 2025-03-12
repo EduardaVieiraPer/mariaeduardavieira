@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio | Maria Eduarda Vieira</title>
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js" crossorigin="anonymous"></script>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -21,7 +21,7 @@
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         }
         header {
-            background: linear-gradient(135deg, #6c757d, #f8f8f8);
+            background: linear-gradient(135deg, #6a0dad, #b84dff);
             color: white;
             padding: 40px;
             border-radius: 10px 10px 0 0;
@@ -31,40 +31,53 @@
             margin-bottom: 10px;
         }
         .section {
-            margin-bottom: 20px;
+            margin-bottom: 40px;
         }
-        .skills, .projects, .contact, .languages, .experience {
+        p {
+            margin: 5px 0;
+        }
+        .content-wrapper {
             display: flex;
-            flex-direction: column;
-            gap: 10px;
+            justify-content: space-between;
+        }
+        .left, .right {
+            width: 48%;
+        }
+        .skills p, .projects p, .languages p, .experience p {
+            line-height: 1.6;
         }
         .projects a {
-            color: #0077b6;
+            color: #6a0dad;
             text-decoration: none;
         }
         .projects a:hover {
             text-decoration: underline;
         }
         .button {
-            background-color: #0077b6;
+            background-color: #6a0dad;
             color: white;
             padding: 10px 20px;
             border: none;
             border-radius: 5px;
             cursor: pointer;
             text-align: center;
+            margin-top: 10px;
         }
         .button:hover {
-            background-color: #005a8d;
+            background-color: #8a2be2;
         }
         .icons a {
-            margin-right: 10px;
+            margin-right: 15px;
             text-decoration: none;
-            color: #0077b6;
-            font-size: 1.5em;
+            color: #6a0dad;
+            font-size: 1.8em;
         }
         .icons a:hover {
-            color: #005a8d;
+            color: #8a2be2;
+        }
+        .centered {
+            text-align: center;
+            margin-top: 50px;
         }
     </style>
 </head>
@@ -75,47 +88,52 @@
             <h2>Analista de Dados</h2>
         </header>
 
-        <section class="section about">
-            <h2>Sobre mim</h2>
-            <p>Sou uma estudante de Ciências Econômicas apaixonada por transformar dados em decisões inteligentes. Atualmente, estudo na Universidade Federal de Pernambuco (2022 - até o momento), com foco em Análise de Dados, Economia Aplicada e Machine Learning.</p>
-        </section>
+        <div class="content-wrapper">
+            <div class="left">
+                <section class="section about">
+                    <h2>Sobre mim</h2>
+                    <p>Sou uma estudante de Ciências Econômicas apaixonada por transformar dados em decisões inteligentes. Atualmente, estudo na Universidade Federal de Pernambuco (2022 - até o momento), com foco em Análise de Dados, Economia Aplicada e Machine Learning.</p>
+                </section>
 
-        <section class="section skills">
-            <h2>Habilidades</h2>
-            <p><strong>Linguagens:</strong> Python, R, SQL</p>
-            <p><strong>Ferramentas:</strong> Power BI, Excel, Google Sheets, Metabase</p>
-            <p><strong>Bibliotecas:</strong> Pandas, NumPy, Matplotlib, Seaborn</p>
-        </section>
+                <section class="section skills">
+                    <h2>Habilidades</h2>
+                    <p><strong>Linguagens:</strong> Python, R, SQL</p>
+                    <p><strong>Ferramentas:</strong> Power BI, Excel, Google Sheets, Metabase</p>
+                    <p><strong>Bibliotecas:</strong> Pandas, NumPy, Matplotlib, Seaborn</p>
+                </section>
 
-        <section class="section projects">
-            <h2>Projetos em Destaque</h2>
-            <p><strong>Projeto 1:</strong> <a href="#">Análise de Dados Econômicos</a></p>
-            <p><strong>Projeto 2:</strong> <a href="#">Dashboard Interativo em Power BI</a></p>
-            <p><strong>Projeto 3:</strong> Em desenvolvimento</p>
-        </section>
+                <section class="section languages">
+                    <h2>Idiomas</h2>
+                    <p><strong>Português:</strong> Nativa</p>
+                    <p><strong>Inglês:</strong> Intermediário</p>
+                </section>
+            </div>
 
-        <section class="section experience">
-            <h2>Experiências</h2>
-            <p>- Estagiária de Análise de Dados - <em>Nome da empresa</em> (Data de início - Atual)</p>
-            <p>- Monitora de Química e Português - Ensino Médio (Ano)</p>
-        </section>
+            <div class="right">
+                <section class="section projects">
+                    <h2>Projetos em Destaque</h2>
+                    <p><strong>Projeto 1:</strong> <a href="#">Análise de Dados Econômicos</a></p>
+                    <p><strong>Projeto 2:</strong> <a href="#">Dashboard Interativo em Power BI</a></p>
+                    <p><strong>Projeto 3:</strong> Em desenvolvimento</p>
+                </section>
 
-        <section class="section languages">
-            <h2>Idiomas</h2>
-            <p><strong>Português:</strong> Nativa</p>
-            <p><strong>Inglês:</strong> Intermediário</p>
-        </section>
+                <section class="section experience">
+                    <h2>Experiências</h2>
+                    <p>- Estagiária de Análise de Dados - <em>Nome da empresa</em> (Data de início - Atual)</p>
+                    <p>- Monitora de Química e Português - Ensino Médio (Ano)</p>
+                </section>
+            </div>
+        </div>
 
-        <section class="section contact">
-            <h2>Contato</h2>
+        <div class="centered">
             <p><strong>Email:</strong> <a href="mailto:mariaeduardavieiraper@gmail.com">mariaeduardavieiraper@gmail.com</a></p>
+            <p><strong>Localização:</strong> Recife, Brasil</p>
             <div class="icons">
                 <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
                 <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
             </div>
-            <p><strong>Localização:</strong> Recife, Brasil</p>
             <button class="button">Download CV</button>
-        </section>
+        </div>
     </div>
 </body>
 </html>
