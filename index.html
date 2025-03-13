@@ -6,10 +6,10 @@
     <title>Portfólio | Maria Eduarda Vieira</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js" crossorigin="anonymous"></script>
     <style>
-        /* Cores */
+        /* Paleta de Cores */
         :root {
             --lilas-principal: #8a2be2; /* lilás forte */
-            --lilas-claro: #c8a2c8; /* lilás claro */
+            --lilas-claro: #c6a4e6; /* lilás claro */
             --branco: #fff;
             --preto: #333;
         }
@@ -17,7 +17,7 @@
         /* Estilo global */
         body {
             font-family: Arial, sans-serif;
-            background: linear-gradient(135deg, #d8bfd8, #dda0dd);
+            background-color: var(--branco);
             color: var(--preto);
             padding: 20px;
         }
@@ -40,8 +40,14 @@
             text-align: center;
         }
 
-        header h1, header h2 {
+        header h1 {
             margin-bottom: 10px;
+            color: var(--branco);
+        }
+
+        header h2 {
+            margin-bottom: 10px;
+            color: var(--branco);
         }
 
         /* Seções */
@@ -68,18 +74,18 @@
         }
 
         /* Estilo dos subtítulos */
-        .projects a {
+        .subtitulo {
             color: var(--lilas-claro);
+            font-weight: bold;
+        }
+
+        .projects a {
+            color: var(--lilas-principal);
             text-decoration: none;
         }
 
         .projects a:hover {
             text-decoration: underline;
-        }
-
-        .subtitulo {
-            color: var(--lilas-claro);
-            font-weight: bold;
         }
 
         /* Ícones */
