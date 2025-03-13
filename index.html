@@ -6,105 +6,77 @@
     <title>Portfólio | Maria Eduarda Vieira</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js" crossorigin="anonymous"></script>
     <style>
-        /* Paleta de Cores */
-        :root {
-            --lilas-principal: #8a2be2; /* lilás forte */
-            --lilas-claro: #c6a4e6; /* lilás claro */
-            --branco: #fff;
-            --preto: #333;
-        }
-
-        /* Estilo global */
         body {
             font-family: Arial, sans-serif;
-            background-color: var(--branco);
-            color: var(--preto);
+            background-color: #f0f0f0;
+            color: #333;
             padding: 20px;
         }
-
         .container {
             max-width: 900px;
             margin: 0 auto;
-            background-color: var(--branco);
+            background-color: #fff;
             padding: 30px;
             border-radius: 10px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         }
-
-        /* Cabeçalho */
         header {
-            background: linear-gradient(135deg, var(--lilas-principal), #b57edc);
-            color: var(--branco);
+            background: linear-gradient(135deg, #4f4f4f, #a0a0a0);
+            color: white;
             padding: 40px;
             border-radius: 10px 10px 0 0;
             text-align: center;
         }
-
-        header h1 {
+        h1, h2 {
             margin-bottom: 10px;
-            color: var(--branco);
         }
-
-        header h2 {
-            margin-bottom: 10px;
-            color: var(--branco);
-        }
-
-        /* Seções */
         .section {
             margin-bottom: 50px;
         }
-
-        h2 {
-            color: var(--lilas-principal);
-            font-size: 1.8em;
-        }
-
         p {
             margin: 5px 0;
         }
-
         .content-wrapper {
             display: flex;
             justify-content: space-between;
         }
-
         .left, .right {
             width: 48%;
         }
-
-        /* Estilo dos subtítulos */
-        .subtitulo {
-            color: var(--lilas-claro);
-            font-weight: bold;
-        }
-
         .projects a {
-            color: var(--lilas-principal);
+            color: #4f4f4f;
             text-decoration: none;
         }
-
         .projects a:hover {
             text-decoration: underline;
         }
-
-        /* Ícones */
+        .button {
+            background-color: #4f4f4f;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-align: center;
+            margin-top: 10px;
+        }
+        .button:hover {
+            background-color: #6f6f6f;
+        }
         .icons a {
             margin-right: 15px;
             text-decoration: none;
-            color: var(--branco) !important;
+            color: white !important;
             font-size: 2.0em;
         }
-
         .icons a:hover {
+            color: #f1f1f1 !important;
             opacity: 0.8;
         }
-
         .centered {
             text-align: center;
             margin-top: 20px;
         }
-
         .icons-below-title {
             display: flex;
             justify-content: center;
@@ -127,61 +99,40 @@
 
         <div class="content-wrapper">
             <div class="left">
-                <!-- Sobre mim -->
                 <section class="section about">
                     <h2>Sobre mim</h2>
                     <p>Sou uma estudante de Ciências Econômicas apaixonada por transformar dados em decisões inteligentes. Atualmente, estudo na Universidade Federal de Pernambuco (2022 - até o momento), com foco em Análise de Dados, Economia Aplicada e Machine Learning.</p>
                 </section>
 
-                <!-- Habilidades -->
                 <section class="section skills">
                     <h2>Habilidades</h2>
-                    <p class="subtitulo">Linguagens:</p>
-                    <p>Python, R, SQL</p>
-
-                    <p class="subtitulo">Ferramentas:</p>
-                    <p>Power BI, Excel, Google Sheets, Metabase</p>
-
-                    <p class="subtitulo">Bibliotecas:</p>
-                    <p>Pandas, NumPy, Matplotlib, Seaborn</p>
+                    <p><strong>Linguagens:</strong> Python, R, SQL</p>
+                    <p><strong>Ferramentas:</strong> Power BI, Excel, Google Sheets, Metabase</p>
+                    <p><strong>Bibliotecas:</strong> Pandas, NumPy, Matplotlib, Seaborn</p>
                 </section>
 
-                <!-- Idiomas -->
                 <section class="section languages">
                     <h2>Idiomas</h2>
-                    <p class="subtitulo">Português:</p>
-                    <p>Nativa</p>
-
-                    <p class="subtitulo">Inglês:</p>
-                    <p>Intermediário</p>
+                    <p><strong>Português:</strong> Nativa</p>
+                    <p><strong>Inglês:</strong> Intermediário</p>
                 </section>
             </div>
 
             <div class="right">
-                <!-- Projetos -->
                 <section class="section projects">
                     <h2>Projetos em Destaque</h2>
-                    <p class="subtitulo">Projeto 1:</p>
-                    <p><a href="#">Análise de Dados Econômicos</a></p>
-
-                    <p class="subtitulo">Projeto 2:</p>
-                    <p><a href="#">Dashboard Interativo em Power BI</a></p>
-
-                    <p class="subtitulo">Projeto 3:</p>
-                    <p>Em desenvolvimento</p>
+                    <p><strong>Projeto 1:</strong> <a href="#">Análise de Dados Econômicos</a></p>
+                    <p><strong>Projeto 2:</strong> <a href="#">Dashboard Interativo em Power BI</a></p>
+                    <p><strong>Projeto 3:</strong> Em desenvolvimento</p>
                 </section>
 
-                <!-- Experiências -->
                 <section class="section experience">
                     <h2>Experiências</h2>
                     <p>- Estagiária de Análise de Dados - SEBRAE Pernambuco (Abr. de 2024 - Atual)</p>
-                    <p>- Jovem Aprendiz - Panpharma (Fev. de 2023 - Mar. de 2024)</p>
-                    <p>- Monitora de Química e Português - Ensino Médio</p>
                 </section>
             </div>
         </div>
 
-        <!-- Contato -->
         <div class="centered">
             <p><strong>Email:</strong> <a href="mailto:mariaeduardavieiraper@gmail.com">mariaeduardavieiraper@gmail.com</a></p>
             <p><strong>Localização:</strong> Recife, Brasil</p>
