@@ -7,7 +7,7 @@ Bem-vindo ao meu perfil do GitHub! Sou uma entusiasta de *Análise de Dados e Ec
 - 📊 Interessada em *Data Analysis, Business Intelligence Economia Aplicada*
 - 🚀 Atualmente estudando *SQL*;
 - 💡 Buscando oportunidades para aplicar meus conhecimentos na prática;
-- 👩🏽‍⚕️Proativa e interessa em sempre aprender coisas novas.
+- 👩🏽‍⚕️ Proativa e interessada em sempre aprender coisas novas.
 
 ## 🛠️ Habilidades
 - *Linguagens*: Python, R, SQL
