@@ -17,14 +17,14 @@ Bem-vindo ao meu perfil do GitHub! Sou uma entusiasta de *Análise de Dados e Ec
 
 ## 👩🏽‍💻 Experiências 
 Estagiária de Análise de Dados no SEBRAE - PE
-- Coleta de dados para tomada de decisões
-- Tratamento de dados para análise (ETL)
-- Análise exploratória
-- Consolidação de estudos e relatórios
-- Análise de mercado/negócios
-- Construção de boletins de inteligência de mercado
-- Criação de dashboards para decisões estratégicas
-- Consultas em banco de dados
+- Coleta de dados para tomada de decisões;
+- Tratamento de dados para análise (ETL);
+- Análise exploratória;
+- Consolidação de estudos e relatórios;
+- Análise de mercado/negócios;
+- Construção de boletins de inteligência de mercado;
+- Criação de dashboards para decisões estratégicas;
+- Consultas em banco de dados;
 - Treinamento de IA.
 
 ## 📫 Como me encontrar
