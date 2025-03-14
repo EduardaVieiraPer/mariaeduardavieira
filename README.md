@@ -1,6 +1,6 @@
 # 👋 Olá, eu sou Maria Eduarda Vieira!
 
-Bem-vindo ao meu perfil do GitHub! Sou uma entusiasta de *Análise de Dados e Economia*, apaixonada por resolver problemas e extrair insights a partir dos dados.
+Bem-vindo ao meu perfil do GitHub! Sou uma entusiasta de *Análise de Dados e Economia*, apaixonada por resolver problemas e extrair insights a partir dos dados. Tenho sólida experiência na construção de dashboards interativos, visualizações de dados valiosos e modelos preditivos, utilizando ferramentas apropiadas.
 
 ## 🔎 Sobre mim
 - 🎓 Estudante de *Ciências Econômicas* na UFPE;
@@ -16,7 +16,7 @@ Bem-vindo ao meu perfil do GitHub! Sou uma entusiasta de *Análise de Dados e Ec
 - *Metodologias*: Análise Exploratória de Dados (EDA), Modelagem Estatística
 
 ## Experiências 
-# Estagiária de Análise de Dados no SEBRAE - PE
+Estagiária de Análise de Dados no SEBRAE - PE
 - Coleta de dados para tomada de decisões
 - Tratamento de dados para análise (ETL)
 - Análise exploratória
@@ -26,8 +26,8 @@ Bem-vindo ao meu perfil do GitHub! Sou uma entusiasta de *Análise de Dados e Ec
 - Criação de dashboards para decisões estratégicas
 - Consultas em banco de dados
 - Treinamento de IA.
-# Ferramentas para análise: SQL, Python, R, Excel, Metabase.
-# Ferramentas para visualização: Power BI
+### Ferramentas para análise: SQL, Python, R, Excel, Metabase.
+### Ferramentas para visualização: Power BI
 
 
 ## 📫 Como me encontrar
