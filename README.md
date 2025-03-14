@@ -5,7 +5,6 @@ Bem-vindo ao meu perfil do GitHub! Sou uma entusiasta de *Análise de Dados e Ec
 ## 🔎 Sobre mim
 - 🎓 Estudante de *Ciências Econômicas* na UFPE;
 - 📊 Interessada em *Data Analysis, Business Intelligence Economia Aplicada*
-- 🚀 Atualmente estudando *SQL*;
 - 💡 Buscando oportunidades para aplicar meus conhecimentos na prática;
 - 👩🏽‍⚕️ Proativa e interessada em sempre aprender coisas novas.
 
