@@ -15,7 +15,7 @@ Bem-vindo ao meu perfil do GitHub! Sou uma entusiasta de *Análise de Dados e Ec
 - *Bibliotecas*: Pandas, NumPy, Matplotlib, Seaborn
 - *Metodologias*: Análise Exploratória de Dados (EDA), Modelagem Estatística
 
-## Experiências 
+## 👩🏽‍💻 Experiências 
 Estagiária de Análise de Dados no SEBRAE - PE
 - Coleta de dados para tomada de decisões
 - Tratamento de dados para análise (ETL)
@@ -26,9 +26,6 @@ Estagiária de Análise de Dados no SEBRAE - PE
 - Criação de dashboards para decisões estratégicas
 - Consultas em banco de dados
 - Treinamento de IA.
-### Ferramentas para análise: SQL, Python, R, Excel, Metabase.
-### Ferramentas para visualização: Power BI
-
 
 ## 📫 Como me encontrar
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=blue)](https://www.linkedin.com/in/seu-usuario)  
