@@ -4,9 +4,10 @@ Bem-vindo ao meu perfil do GitHub! Sou uma entusiasta de *Análise de Dados e Ec
 
 ## 🔎 Sobre mim
 - 🎓 Estudante de *Ciências Econômicas* na UFPE;
-- 📊 Interessada em *Data Analysis, **Machine Learning* e *Economia Aplicada*;
-- 🚀 Atualmente estudando *Python, SQL e Power BI*;
-- 💡 Buscando oportunidades para aplicar meus conhecimentos na prática.
+- 📊 Interessada em *Data Analysis, Business Intelligence Economia Aplicada*
+- 🚀 Atualmente estudando *SQL*;
+- 💡 Buscando oportunidades para aplicar meus conhecimentos na prática;
+- 👩🏽‍⚕️Proativa e interessa em sempre aprender coisas novas.
 
 ## 🛠️ Habilidades
 - *Linguagens*: Python, R, SQL
@@ -14,16 +15,24 @@ Bem-vindo ao meu perfil do GitHub! Sou uma entusiasta de *Análise de Dados e Ec
 - *Bibliotecas*: Pandas, NumPy, Matplotlib, Seaborn
 - *Metodologias*: Análise Exploratória de Dados (EDA), Modelagem Estatística
 
-## 📌 Projetos em Destaque
-🔹 [Nome do Projeto 1](#) - Breve descrição sobre o projeto.
+## Experiências 
+# Estagiária de Análise de Dados no SEBRAE - PE
+- Coleta de dados para tomada de decisões
+- Tratamento de dados para análise (ETL)
+- Análise exploratória
+- Consolidação de estudos e relatórios
+- Análise de mercado/negócios
+- Construção de boletins de inteligência de mercado
+- Criação de dashboards para decisões estratégicas
+- Consultas em banco de dados
+- Treinamento de IA.
+# Ferramentas para análise: SQL, Python, R, Excel, Metabase.
+# Ferramentas para visualização: Power BI
 
-🔹 [Nome do Projeto 2](#) - Breve descrição sobre o projeto.
-
-🔹 [Nome do Projeto 3](#) - Breve descrição sobre o projeto.
 
 ## 📫 Como me encontrar
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=blue)](https://www.linkedin.com/in/seu-usuario)  
-[![E-mail](https://img.shields.io/badge/E--mail-000?style=for-the-badge&logo=gmail&logoColor=red)](mailto:seuemail@email.com)  
+[![E-mail](https://img.shields.io/badge/E--mail-000?style=for-the-badge&logo=gmail&logoColor=red)](mailto:mariaeduardavieiraper@gmail.com)  
 
 ---
 
