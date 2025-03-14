@@ -28,7 +28,7 @@ Estagiária de Análise de Dados no SEBRAE - PE
 - Treinamento de IA.
 
 ## 📫 Como me encontrar
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=blue)](https://www.linkedin.com/in/seu-usuario)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=blue)](www.linkedin.com/in/maria-eduarda-vieira-05a14322b)  
 [![E-mail](https://img.shields.io/badge/E--mail-000?style=for-the-badge&logo=gmail&logoColor=red)](mailto:mariaeduardavieiraper@gmail.com)  
 
 ---
