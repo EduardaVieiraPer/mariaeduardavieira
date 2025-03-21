@@ -6,144 +6,98 @@
     <title>Portfólio | Maria Eduarda Vieira</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js" crossorigin="anonymous"></script>
     <style>
-        .email-link {
-    color: #6a0dad !important; /* Use o mesmo tom de roxo dos ícones */
-    text-decoration: none; /* Remove o sublinhado padrão */
-    font-weight: bold; /* Opcional: para destacar mais */
-}
-        .email-link:hover {
-    text-decoration: underline; /* Opcional: adiciona sublinhado ao passar o mouse */
-}
         body {
             font-family: Arial, sans-serif;
             background-color: #f0f0f0;
             color: #333;
             padding: 20px;
+            text-align: center;
         }
         .container {
-            max-width: 900px;
-            margin: 0 auto;
-            background-color: #fff;
+            max-width: 800px;
+            margin: auto;
+            background: white;
             padding: 30px;
             border-radius: 10px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         }
-        header {
-            background: linear-gradient(135deg, #d3d3d3, #f0f0f0);
-            color: #333;
-            padding: 40px;
-            border-radius: 10px 10px 0 0;
-            text-align: center;
+        img.profile {
+            width: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
         }
         h1, h2 {
-            margin-bottom: 10px;
-        }
-        .section {
-            margin-bottom: 50px;
-        }
-        p {
-            margin: 5px 0;
-        }
-        .content-wrapper {
-            display: flex;
-            justify-content: space-between;
-        }
-        .left, .right {
-            width: 48%;
-        }
-        .projects a {
-            color: #4f4f4f;
-            text-decoration: none;
-        }
-        .projects a:hover {
-            text-decoration: underline;
-        }
-        .button {
-            background-color: #4f4f4f;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            text-align: center;
-            margin-top: 10px;
-        }
-        .button:hover {
-            background-color: #6f6f6f;
+            color: #333;
         }
         .icons a {
-            margin-right: 15px;
+            margin: 0 10px;
+            font-size: 1.8em;
+            color: #6a0dad;
             text-decoration: none;
-            color: white !important;
-            font-size: 2.0em;
         }
-        .icons a:hover {
-            color: #f1f1f1 !important;
-            opacity: 0.8;
+        .section {
+            text-align: left;
+            margin-top: 40px;
         }
-        .centered {
-            text-align: center;
-            margin-top: 20px;
-        }
-        .icons-below-title {
+        .project {
             display: flex;
-            justify-content: center;
-            gap: 20px;
+            align-items: center;
             margin-top: 20px;
+        }
+        .project img {
+            width: 150px;
+            height: auto;
+            border-radius: 5px;
+            margin-right: 15px;
+        }
+        .project-info {
+            flex: 1;
+        }
+        .email {
+            font-weight: bold;
+            color: #6a0dad;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <header>
-            <h1>Portfólio | Maria Eduarda Vieira</h1>
-            <h2>Analista de Dados</h2>
-            <div class="icons-below-title">
-                <a href="https://www.linkedin.com/in/maria-eduarda-vieira-05a14322b" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                <a href="https://github.com/EduardaVieiraPer" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
-                <a href="https://medium.com/@mariaeduardavieiraper" target="_blank" title="Medium"><i class="fab fa-medium"></i></a>
-            </div>
-        </header>
-
-        <div class="content-wrapper">
-            <div class="left">
-                <section class="section about">
-                    <h2>Sobre mim</h2>
-                    <p>Estudante de Ciências Econômicas apaixonada por transformar dados em decisões inteligentes. Atualmente, estudo na Universidade Federal de Pernambuco, com foco em Análise de Dados....</p>
-                </section>
-
-                <section class="section skills">
-                    <h2>Habilidades</h2>
-                    <p><strong>Linguagens:</strong> Python, R, SQL</p>
-                    <p><strong>Ferramentas:</strong> Power BI, Excel, Google Sheets, Metabase</p>
-                    <p><strong>Bibliotecas:</strong> Pandas, NumPy, Matplotlib, Seaborn</p>
-                </section>
-
-                <section class="section languages">
-                    <h2>Idiomas</h2>
-                    <p><strong>Português:</strong> Nativa</p>
-                    <p><strong>Inglês:</strong> Básico</p>
-                </section>
-            </div>
-
-            <div class="right">
-                <section class="section projects">
-                    <h2>Projetos em Destaque</h2>
-                    <p><strong>Projeto 1:</strong> <a href="#">Análise de Dados Econômicos</a></p>
-                    <p><strong>Projeto 2:</strong> <a href="#">Dashboard Interativo em Power BI</a></p>
-                    <p><strong>Projeto 3:</strong> Em desenvolvimento</p>
-                </section>
-
-                <section class="section experience">
-                    <h2>Experiências</h2>
-                    <p>Estagiária de Análise de Dados - SEBRAE Pernambuco (Abr. de 2024 - Atual)</p>
-                </section>
+        <img src="https://postimg.cc/LYRvBYXv" alt="Maria Eduarda" class="profile">
+        <h1>Maria Eduarda Vieira</h1>
+        <h2>Analista de Dados</h2>
+        <div class="icons">
+            <a href="https://www.linkedin.com/in/maria-eduarda-vieira-05a14322b" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/EduardaVieiraPer" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://medium.com/@mariaeduardavieiraper" target="_blank"><i class="fab fa-medium"></i></a>
+        </div>
+        
+        <div class="section">
+            <h2>Sobre Mim</h2>
+            <p>Estudante de Ciências Econômicas apaixonada por transformar dados em insights valiosos. Possuo experiência com análise de dados, modelagem estatística e visualização de informações.</p>
+        </div>
+        
+        <div class="section">
+            <h2>Habilidades</h2>
+            <p><strong>Ferramentas:</strong> Python, R, SQL, Power BI, Excel</p>
+            <p><strong>Bibliotecas:</strong> Pandas, NumPy, Matplotlib, Seaborn</p>
+            <p><strong>Idiomas:</strong> Português (Nativa), Inglês (Intermediário)</p>
+        </div>
+        
+        <div class="section">
+            <h2>Projetos</h2>
+            <div class="project">
+                <img src="https://i.postimg.cc/PrnGtVxS/image.png" alt="Projeto Análise de Perfil de Clientes">
+                <div class="project-info">
+                    <h3>Análise de Perfil de Clientes</h3>
+                    <p>Exploração de dados para entender o comportamento dos clientes e sua relação com estratégias de marketing.</p>
+                    <a href="https://medium.com/@mariaeduardavieiraper/an%C3%A1lise-de-perfil-de-clientes-e-sua-influ%C3%AAncia-na-personaliza%C3%A7%C3%A3o-do-marketing-479597cad4bf" target="_blank">Leia mais</a>
+                </div>
             </div>
         </div>
-
-        <div class="centered">
-            <p><strong>Email:</strong> <a href="mailto:mariaeduardavieiraper@gmail.com" class="email-link">mariaeduardavieiraper@gmail.com</a></p>
-            <p><strong>Localização:</strong> Recife, Brasil</p>
+        
+        <div class="section">
+            <h2>Contato</h2>
+            <p>Email: <a href="mailto:mariaeduardavieiraper@gmail.com" class="email">mariaeduardavieiraper@gmail.com</a></p>
+            <p>Localização: Recife, Brasil</p>
         </div>
     </div>
 </body>
