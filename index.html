@@ -1,104 +1,71 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio | Maria Eduarda Vieira</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js" crossorigin="anonymous"></script>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            color: #333;
-            padding: 20px;
-            text-align: center;
-        }
-        .container {
-            max-width: 800px;
-            margin: auto;
-            background: white;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-        }
-        img.profile {
-            width: 150px;
-            border-radius: 50%;
-            margin-bottom: 20px;
-        }
-        h1, h2 {
-            color: #333;
-        }
-        .icons a {
-            margin: 0 10px;
-            font-size: 1.8em;
-            color: #6a0dad;
-            text-decoration: none;
-        }
-        .section {
-            text-align: left;
-            margin-top: 40px;
-        }
-        .project {
-            display: flex;
-            align-items: center;
-            margin-top: 20px;
-        }
-        .project img {
-            width: 150px;
-            height: auto;
-            border-radius: 5px;
-            margin-right: 15px;
-        }
-        .project-info {
-            flex: 1;
-        }
-        .email {
-            font-weight: bold;
-            color: #6a0dad;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <img src="https://i.postimg.cc/3R06h2HM/perfil-png.jpg" alt="Maria Eduarda" class="profile">
-        <h1>Maria Eduarda Vieira</h1>
-        <h2>Analista de Dados</h2>
-        <div class="icons">
-            <a href="https://www.linkedin.com/in/maria-eduarda-vieira-05a14322b" target="_blank"><i class="fab fa-linkedin"></i></a>
-            <a href="https://github.com/EduardaVieiraPer" target="_blank"><i class="fab fa-github"></i></a>
-            <a href="https://medium.com/@mariaeduardavieiraper" target="_blank"><i class="fab fa-medium"></i></a>
+import React from "react";
+import { FaGithub, FaLinkedin, FaMedium, FaEnvelope, FaPhone } from "react-icons/fa";
+
+export default function Portfolio() {
+  return (
+    <div className="bg-gray-100 min-h-screen p-8">
+      {/* Cabeçalho */}
+      <div className="bg-white shadow-md rounded-lg p-6 flex items-center gap-6">
+        <img
+          src="https://i.postimg.cc/3R06h2HM/perfil-png.jpg"
+          alt="Foto de perfil"
+          className="w-32 h-32 rounded-full border-4 border-gray-300"
+        />
+        <div>
+          <h1 className="text-3xl font-bold text-gray-800">Maria Eduarda</h1>
+          <p className="text-gray-600 text-lg">Analista de Dados</p>
+          <div className="flex gap-4 mt-2">
+            <a href="https://github.com/seuusuario" target="_blank" rel="noopener noreferrer">
+              <FaGithub className="text-gray-600 hover:text-black text-2xl" />
+            </a>
+            <a href="https://medium.com/@seuusuario" target="_blank" rel="noopener noreferrer">
+              <FaMedium className="text-gray-600 hover:text-black text-2xl" />
+            </a>
+            <a href="https://linkedin.com/in/seuusuario" target="_blank" rel="noopener noreferrer">
+              <FaLinkedin className="text-gray-600 hover:text-blue-600 text-2xl" />
+            </a>
+          </div>
         </div>
-        
-        <div class="section">
-            <h2>Sobre Mim</h2>
-            <p>Estudante de Ciências Econômicas apaixonada por transformar dados em insights valiosos. Possuo experiência com análise de dados, modelagem estatística e visualização de informações.</p>
+      </div>
+
+      {/* Corpo principal */}
+      <div className="grid grid-cols-3 gap-8 mt-8">
+        {/* Sobre mim e projetos */}
+        <div className="col-span-2 bg-white shadow-md rounded-lg p-6">
+          <h2 className="text-2xl font-bold text-gray-800 mb-4">Sobre mim</h2>
+          <p className="text-gray-600">
+            Sou estudante de Economia e Análise de Dados, com grande habilidade em tecnologia.
+            Trabalho com protótipos de IA, testes de IA e criação de agentes.
+          </p>
+          <h2 className="text-2xl font-bold text-gray-800 mt-6 mb-4">Projetos</h2>
+          <p className="text-gray-600">Desenvolvi dashboards interativos em Power BI, modelos preditivos em Python e automações de processos.</p>
         </div>
-        
-        <div class="section">
-            <h2>Habilidades</h2>
-            <p><strong>Ferramentas:</strong> Python, R, SQL, Power BI, Excel</p>
-            <p><strong>Bibliotecas:</strong> Pandas, NumPy, Matplotlib, Seaborn</p>
-            <p><strong>Idiomas:</strong> Português (Nativa), Inglês (Intermediário)</p>
+
+        {/* Formação, habilidades e idiomas */}
+        <div className="bg-white shadow-md rounded-lg p-6">
+          <h2 className="text-2xl font-bold text-gray-800 mb-4">Formação</h2>
+          <p className="text-gray-600">Graduação em Economia e Análise de Dados.</p>
+
+          <h2 className="text-2xl font-bold text-gray-800 mt-6 mb-4">Habilidades e Ferramentas</h2>
+          <p className="text-gray-600">Python, SQL, Power BI, R, Figma.</p>
+
+          <h2 className="text-2xl font-bold text-gray-800 mt-6 mb-4">Idiomas</h2>
+          <p className="text-gray-600">Português: Nativo</p>
+          <p className="text-gray-600">Inglês: Intermediário</p>
         </div>
-        
-        <div class="section">
-            <h2>Projetos</h2>
-            <div class="project">
-                <img src="https://i.postimg.cc/PrnGtVxS/image.png" alt="Projeto Análise de Perfil de Clientes">
-                <div class="project-info">
-                    <h3>Análise de Perfil de Clientes</h3>
-                    <p>Exploração de dados para entender o comportamento dos clientes e sua relação com estratégias de marketing.</p>
-                    <a href="https://medium.com/@mariaeduardavieiraper/an%C3%A1lise-de-perfil-de-clientes-e-sua-influ%C3%AAncia-na-personaliza%C3%A7%C3%A3o-do-marketing-479597cad4bf" target="_blank">Leia mais</a>
-                </div>
-            </div>
-        </div>
-        
-        <div class="section">
-            <h2>Contato</h2>
-            <p>Email: <a href="mailto:mariaeduardavieiraper@gmail.com" class="email">mariaeduardavieiraper@gmail.com</a></p>
-            <p>Localização: Recife, Brasil</p>
-        </div>
+      </div>
+
+      {/* Rodapé */}
+      <div className="text-center mt-10 p-6 bg-white shadow-md rounded-lg">
+        <h2 className="text-2xl font-bold text-gray-800">Contato</h2>
+        <p className="text-gray-600 flex justify-center items-center gap-2 mt-2">
+          <FaEnvelope /> mariaeduarda@email.com
+        </p>
+        <p className="text-gray-600 flex justify-center items-center gap-2 mt-2">
+          <FaPhone /> (00) 12345-6789
+        </p>
+      </div>
     </div>
-</body>
-</html>
+  );
+}
+
