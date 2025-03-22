@@ -1,69 +1,63 @@
-import React from "react";
-import { FaGithub, FaLinkedin, FaMedium, FaEnvelope, FaPhone } from "react-icons/fa";
-
-export default function Portfolio() {
-  return (
-    <div className="bg-gray-100 min-h-screen p-8 flex flex-col items-center">
-      {/* Cabeçalho */}
-      <header className="bg-white shadow-md rounded-lg p-6 flex flex-col items-center text-center w-full max-w-4xl">
-        <img
-          src="https://i.postimg.cc/3R06h2HM/perfil-png.jpg"
-          alt="Foto de perfil"
-          className="w-32 h-32 rounded-full border-4 border-gray-300"
-        />
-        <h1 className="text-3xl font-bold text-gray-800 mt-4">Maria Eduarda</h1>
-        <p className="text-gray-600 text-lg">Analista de Dados</p>
-        <div className="flex gap-4 mt-4">
-          <a href="https://github.com/seuusuario" target="_blank" rel="noopener noreferrer">
-            <FaGithub className="text-gray-600 hover:text-black text-2xl" />
-          </a>
-          <a href="https://medium.com/@seuusuario" target="_blank" rel="noopener noreferrer">
-            <FaMedium className="text-gray-600 hover:text-black text-2xl" />
-          </a>
-          <a href="https://linkedin.com/in/seuusuario" target="_blank" rel="noopener noreferrer">
-            <FaLinkedin className="text-gray-600 hover:text-blue-600 text-2xl" />
-          </a>
-        </div>
-      </header>
-
-      {/* Sobre mim e projetos */}
-      <section className="w-full max-w-4xl grid md:grid-cols-3 gap-8 mt-8">
-        <div className="md:col-span-2 bg-white shadow-md rounded-lg p-6">
-          <h2 className="text-2xl font-bold text-gray-800 mb-4">Sobre mim</h2>
-          <p className="text-gray-600">
-            Sou estudante de Economia e Análise de Dados, com grande habilidade em tecnologia.
-            Trabalho com protótipos de IA, testes de IA e criação de agentes.
-          </p>
-          <h2 className="text-2xl font-bold text-gray-800 mt-6 mb-4">Projetos</h2>
-          <p className="text-gray-600">Desenvolvi dashboards interativos em Power BI, modelos preditivos em Python e automações de processos.</p>
-        </div>
-        
-        {/* Formação e habilidades */}
-        <div className="bg-white shadow-md rounded-lg p-6">
-          <h2 className="text-2xl font-bold text-gray-800 mb-4">Formação</h2>
-          <p className="text-gray-600">Graduação em Economia e Análise de Dados.</p>
-
-          <h2 className="text-2xl font-bold text-gray-800 mt-6 mb-4">Habilidades</h2>
-          <p className="text-gray-600">Python, SQL, Power BI, R, Figma.</p>
-
-          <h2 className="text-2xl font-bold text-gray-800 mt-6 mb-4">Idiomas</h2>
-          <p className="text-gray-600">Português: Nativo</p>
-          <p className="text-gray-600">Inglês: Intermediário</p>
-        </div>
-      </section>
-
-      {/* Contato */}
-      <footer className="text-center mt-10 p-6 bg-white shadow-md rounded-lg w-full max-w-4xl">
-        <h2 className="text-2xl font-bold text-gray-800">Contato</h2>
-        <p className="text-gray-600 flex justify-center items-center gap-2 mt-2">
-          <FaEnvelope /> mariaeduarda@email.com
-        </p>
-        <p className="text-gray-600 flex justify-center items-center gap-2 mt-2">
-          <FaPhone /> (00) 12345-6789
-        </p>
-      </footer>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio de Maria Eduarda, Analista de Dados">
+  <title>Maria Eduarda - Portfólio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="https://i.postimg.cc/3R06h2HM/perfil-png.jpg" type="image/x-icon">
+</head>
+<body>
+  <!-- Cabeçalho -->
+  <header class="header">
+    <img src="https://i.postimg.cc/3R06h2HM/perfil-png.jpg" alt="Foto de perfil" class="profile-img">
+    <h1>Maria Eduarda</h1>
+    <p>Analista de Dados</p>
+    <div class="social-links">
+      <a href="https://github.com/EduardaVieiraPer" target="_blank">GitHub</a>
+      <a href="https://medium.com/@mariaeduardavieiraper" target="_blank">Medium</a>
+      <a href="https://www.linkedin.com/in/maria-eduarda-vieira-05a14322b/" target="_blank">LinkedIn</a>
     </div>
-  );
-}
+  </header>
+
+  <!-- Sobre Mim e Projetos -->
+  <section class="about-projects">
+    <div class="about">
+      <h2>Sobre Mim</h2>
+      <p>Sou estudante de Economia e Análise de Dados, com grande habilidade em tecnologia. Trabalho com protótipos de IA, testes de IA e criação de agentes.</p>
+    </div>
+    <div class="projects">
+      <h2>Projetos</h2>
+      <p>Desenvolvi dashboards interativos em Power BI, modelos preditivos em Python e automações de processos.</p>
+    </div>
+  </section>
+
+  <!-- Formação e Habilidades -->
+  <section class="education-skills">
+    <div class="education">
+      <h2>Formação</h2>
+      <p>Graduação em Economia e Análise de Dados.</p>
+    </div>
+    <div class="skills">
+      <h2>Habilidades</h2>
+      <p>Python, SQL, Power BI, R, Figma.</p>
+    </div>
+    <div class="languages">
+      <h2>Idiomas</h2>
+      <p>Português: Nativo</p>
+      <p>Inglês: Básico</p>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <footer class="contact">
+    <h2>Contato</h2>
+    <p>Email: <a href="mailto:mariaeduardavieiraper@gmail.com">mariaeduardavieiraper@gmail.com</a></p>
+    <p>Telefone: <a href="tel:+5581987546151">(81) 987546151</a></p>
+  </footer>
+</body>
+</html>
+
 
 
